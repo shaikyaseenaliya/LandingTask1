@@ -1,0 +1,140 @@
+
+
+
+.container1{
+    background-image:linear-gradient(to bottom right, #FF3E9D,#0E1F40,#0E1F40, #0E1F40);
+    background-size:cover;
+    height:300vh;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background:transparent;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+}
+
+.logo{
+    font-size:32px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    filter: drop-shadow(0 0 5px #09001d);
+    margin-bottom:120px;
+    padding-bottom:140px;
+}
+
+.navbar a{
+    margin-left:35px;
+    transition:.3s;
+    font-weight:500;
+    color:#fff;
+    font-size:18px;
+    text-decoration:none;
+    margin-bottom:120px;
+    padding-bottom:140px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color:#dac0ff;
+
+}
+
+h1{
+    font-size:48px;
+    text-align:center;
+    font-family:"Caveart";
+    color:#fff;
+    padding:30px;
+}
+
+.card{
+    border-radius:16px;
+    height:65vh;
+    width:25vw;
+    background-color:#dac0ff;
+    margin-bottom:30px;
+    margin-right:5px;
+    margin-top:100px;
+}
+.card1{
+    border-radius:16px;
+    height:65vh;
+    width:25vw;
+    background-color:#dac0ff;
+    margin-bottom:30px;
+    margin-right:5px;
+    margin-top:20px;
+}
+
+.img{
+    width:33vw;
+    margin:10px;
+    border-radius:16px;
+    height:48vh;
+}
+
+.img1{
+    width:23vw;
+    margin:10px;
+    border-radius:16px;
+    height:43vh;
+}
+.img2{
+    width:43vw;
+    margin:10px;
+    border-radius:16px;
+    height:48vh;
+}
+
+.para1{
+    font-size:26px;
+    font-weight:700;
+    color:black;
+    font-family:"Cavert";
+    margin-left:20px;
+}
+
+.para2{
+    font-size:22px;
+    margin-left:20px;
+    font-weight:600;
+    font-family:"Cavert";
+    color:black;
+}
+
+.hr{
+    height:0.5vh;
+    width:100vw;
+    background-color:grey;
+}
+
+.follow-us-section{
+    color:grey;
+    font-size:18px;
+    font-family:"Caveart";
+    font-weight:400;
+    text-align:center;
+}
+
+.last-section{
+    font-size:40px;
+    text-align:center;
+    font-family:"Caveart";
+    color:#fff;
+    padding:10px;
+}
+
+.payment{
+    font-size:23px;
+    text-align:left;
+    font-family:"Caveart";
+    color:#fff;
+    padding:20px; 
+}
